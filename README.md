@@ -1,6 +1,6 @@
 # 🚗 Car Sales Data Pipeline
 
-[![CI/CD](https://github.com/dewhallez/sample_etl_pipeline/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/dewhallez/car-sales-data-pipeline/actions/workflows/ci-cd.yml)
+[![CI/CD](https://github.com/dewhallez/sample_etl_pipeline/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/dewhallez/sample_etl_pipeline/actions/workflows/ci-cd.yml)
 [![Dockerized](https://img.shields.io/badge/docker-ready-blue?logo=docker)](https://www.docker.com/)
 [![Airflow](https://img.shields.io/badge/airflow-2.8.1-blue?logo=apache-airflow)](https://airflow.apache.org/)
 [![Spark](https://img.shields.io/badge/spark-3.5-orange?logo=apache-spark)](https://spark.apache.org/)
