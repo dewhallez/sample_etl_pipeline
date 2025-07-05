@@ -28,5 +28,5 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/car-sales-data-pipeline.git
-cd car-sales-data-pipeline
+git clone https://github.com/dewhallez/sample_etl_pipeline
+cd sample_etl_pipeline
