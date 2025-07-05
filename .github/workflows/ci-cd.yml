@@ -45,7 +45,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: 🧪 Run unit tests
-        run: pytest tests/
+        run: |
+          export PYTHONPATH=$(pwd)
+          pytest tests/
 
   cd:
     name: 🚀 Deploy Pipeline
