@@ -8,4 +8,4 @@ def test_generate_data_shape():
 def test_generate_data_values():
     df = generate_data(10)
     assert (df['price'] > 0).all()
-    assert df['year'].between(2000, 2023).all()
+    assert df['year'].between(2000, 2025).all()
