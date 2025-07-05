@@ -1,0 +1,17 @@
+Faker
+iniconfig
+numpy
+packaging
+pandas
+pluggy
+Pygments
+pytest
+python-dateutil
+pytz
+six
+SQLAlchemy
+typing_extensions
+tzdata
+psycopg2-binary
+python-dotenv
+apache-airflow-providers-docker
