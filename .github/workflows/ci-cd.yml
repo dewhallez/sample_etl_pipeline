@@ -2,7 +2,13 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: 
+      - main    # Trigger on pushes to the main branc
+      - develop # Trigger on pushes to the develop branch
+  pull_request:
+    branches:
+      - main # Trigger on pull requests targeting the main branch
+      - develop # Trigger on pull requests targeting the develop branch
 
 jobs:
   ci:
