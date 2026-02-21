@@ -282,5 +282,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📫 Contact
 
-- Author: Your Name
+- Author: Akinwale
 - GitHub: [@dewhallez](https://github.com/dewhallez)
