@@ -8,13 +8,23 @@ logging.basicConfig(filename='logs/generate_data.log', level=logging.INFO, forma
 
 def generate_data(n=100000):
     fake = Faker()
-    car_makes = ['Toyota', 'Ford', 'Honda', 'Chevrolet', 'BMW']
+    car_makes = ['Toyota', 'Ford', 'Honda', 'Chevrolet', 'BMW', 'Mercedes-Benz', 'Audi', 'Volkswagen', 'Hyundai', 'Nissan', 'Kia', 'Subaru', 'Mazda', 'Lexus', 'Tesla']
     models = {
-        'Toyota': ['Camry', 'Corolla'],
-        'Ford': ['F-150', 'Focus'],
-        'Honda': ['Civic', 'Accord'],
-        'Chevrolet': ['Malibu', 'Impala'],
-        'BMW': ['X5', '3 Series']
+        'Toyota': ['Camry', 'Corolla', 'RAV4', 'Prius', 'Highlander', 'Tacoma', 'Tundra', 'Sienna', '4Runner', 'Avalon'],
+        'Ford': ['F-150', 'Focus', 'Mustang', 'Explorer', 'Escape', 'Edge', 'Fusion', 'Ranger', 'Bronco', 'Transit'],
+        'Honda': ['Civic', 'Accord', 'CR-V', 'Pilot', 'Fit', 'HR-V', 'Odyssey', 'Ridgeline', 'Insight', 'Passport'],
+        'Chevrolet': ['Malibu', 'Impala', 'Equinox', 'Traverse', 'Silverado', 'Colorado', 'Camaro', 'Tahoe', 'Suburban', 'Bolt'],
+        'BMW': ['X5', '3 Series', '5 Series', 'X3', 'X1', '7 Series', 'X6', 'Z4', 'M3', 'M5'],
+        'Mercedes-Benz': ['C-Class', 'E-Class', 'S-Class', 'GLC', 'GLE', 'A-Class', 'B-Class', 'G-Class', 'CLA', 'GLA'],
+        'Audi': ['A4', 'A6', 'Q5', 'Q7', 'A3', 'A8', 'Q3', 'TT', 'R8', 'S5'],
+        'Volkswagen': ['Golf', 'Passat', 'Tiguan', 'Jetta', 'Atlas', 'Beetle', 'Polo', 'Arteon', 'ID.4', 'Touareg'],
+        'Hyundai': ['Elantra', 'Sonata', 'Tucson', 'Santa Fe', 'Kona', 'Palisade', 'Accent', 'Veloster', 'Ioniq', 'Nexo'],
+        'Nissan': ['Altima', 'Sentra', 'Rogue', 'Murano', 'Pathfinder', 'Frontier', 'Titan', 'Leaf', 'Maxima', 'Versa'],
+        'Kia': ['Optima', 'Sorento', 'Sportage', 'Soul', 'Telluride', 'Forte', 'Stinger', 'Niro', 'Seltos', 'Cadenza'],
+        'Subaru': ['Outback', 'Forester', 'Impreza', 'Crosstrek', 'Ascent', 'Legacy', 'WRX', 'BRZ', 'XV', 'Tribeca'],
+        'Mazda': ['Mazda3', 'Mazda6', 'CX-5', 'CX-9', 'MX-5 Miata', 'CX-3', 'CX-30', 'RX-8', '6', '5'],
+        'Lexus': ['RX', 'ES', 'IS', 'NX', 'GX', 'LS', 'UX', 'LC', 'RC', 'LX'],
+        'Tesla': ['Model S', 'Model 3', 'Model X', 'Model Y', 'Cybertruck', 'Roadster', 'Semi', 'Powerwall', 'Solar Roof', 'Energy Storage']
     }
 
     data = []
